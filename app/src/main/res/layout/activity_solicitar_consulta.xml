@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="kelvis.com.br.agendamentoconsulta.SolicitarConsultaActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/icon_despertador" />
+
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setData"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary_darker"
+        android:text="Escolha uma data"
+        />
+
+    <EditText
+        android:id="@+id/edtNasc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textColor="@color/iron"
+        />
+
+    <Button
+        android:id="@+id/btnHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="setHora"
+        android:text="Escolha um Horário"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary_darker"
+        />
+
+    <EditText
+        android:id="@+id/edtHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textColor="@color/iron"
+        />
+
+
+    <Button
+        android:id="@+id/btnSolicitar"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar Consulta"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorVerdeDark3"
+
+        />
+
+</LinearLayout>

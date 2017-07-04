@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kelvis.com.br.agendamentoconsulta.MainActivity">
+
+    <item
+        android:title=""
+        android:id="@+id/action_atualizar"
+        android:icon="@drawable/ic_cached_white_24dp"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/action_deslogar"
+        android:orderInCategory="2"
+        android:title="@string/action_deslogar"
+        app:showAsAction="never" />
+</menu>

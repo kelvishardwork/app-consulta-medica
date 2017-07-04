@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SES CONSULTA</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_deslogar">Deslogar</string>
+    <string name="action_atualizar">Atualizar</string>
+    <string name="minhas_consultas">Minhas Consultas</string>
+</resources>
